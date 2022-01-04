@@ -1,0 +1,176 @@
+body{
+    font-family: 'EB Garamond', serif;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+h2,h3,{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+.content-padding{
+    padding: 7% 15%; 
+}
+
+.color-golden{
+    color:  #B29155;
+}
+
+/* Navbar start  */
+
+
+#navi{
+    padding: .5% 15%;
+    background-color: #B29155;
+    font-family: 'Fjalla One', sans-serif
+    
+}
+.container{
+    
+}
+.nav-item{
+    padding-left: 30px;
+    font-size: 1.3rem;
+}
+.fz{
+    font-size: 1.6rem;
+    
+}
+/* navbar end  */
+
+/* profile start  */
+#profile{
+    background: linear-gradient(to right, #B29155 2%,#000 95%);
+    color: #B29155;
+    /* padding: 7% 15%; */
+}
+.circle{
+    border-radius:50%;
+    width: 85%;
+    text-align: center;
+}
+.profile-content{
+    padding: 5% 0 0 2% ;
+    text-align: center;
+}
+.profile-content h1 {
+    font-size: 3.5rem;
+}
+.profile-content h2{
+    font-size: 1.9rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.profile-content p{
+    font-size: 1.3rem;
+    word-spacing: 4;
+}
+.profile-content h1,.profile-content h2,.profile-content p{
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.81);
+}
+
+/* profile part end  */
+
+/* Experience part start  */
+#experience{
+    background-color: #E5E6E1;
+    
+}
+
+.ex-h2 h2{
+    font-size: 2.5rem;
+}
+.ex-h3 h3{
+    margin: 50px 0 20px 0 ;
+    font-size: 2rem;
+}
+.ex-link{
+    text-decoration: none;
+    color: #B29155;
+}
+.ex-link:hover{
+    text-decoration: underline;
+    color: #8b703e;
+}
+.ex-table{
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+/* Experience part end  */
+
+/* skill part start */
+#skill{
+    background-color: #eaece3;
+}
+.skillRow1, .skillRow2{
+    text-align: center;
+    
+}
+
+/* skill part end */
+
+/* education part start  */
+#education{
+    background-color: #E5E6E1;
+}
+/* education part end  */
+
+/* download part start  */
+#download{
+    background-color:  #eaece3;
+}
+
+/*download part end  */
+
+/* contact part start  */
+#contact{
+    background-color: #B29155;
+    font-size: 1.3rem;
+
+}
+#contact a{
+    text-decoration: none;
+    color: rgb(49, 47, 47);
+    padding-right:30px ;
+}
+#contact a:hover{
+    color: #dbd5c9;
+}
+#contact p{
+    font-size: 1rem;
+}
+
+
+
+
+/* media quary code  */
+
+@media only screen and (max-width: 480px){
+    .profile-content h1{
+        font-size: 1.9rem;
+    }
+    .profile-content h2{
+        font-size: 1.4rem;
+    }
+    .ex-h2 h2{
+        font-size: 1.9rem;
+    }
+    .ex-h3 h3{
+        font-size: 1.4rem;
+    }
+    .ex-table{
+        font-size: 1.25rem;
+        line-height: 2;
+    }
+    .skillRow1{
+        margin-left: 0px;
+    }
+    .skillRow1, .skillRow2{
+        text-align: left;
+    }
+    
+}
